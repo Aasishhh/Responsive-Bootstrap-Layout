@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(rgb(156, 210, 255), rgb(9, 39, 65));
+  padding-top: 50px;
+}
+
+.navbar {
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 80px;
+  background: url("texture1.jpg");
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.form-control {
+  background: linear-gradient(90deg, #2fa5f3, #7cdff8);
+  font-size: 1.4rem;
+}
+
+.row {
+  background: url("texture2.jpg");
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  border-radius: 0px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.foot {
+  background: url("texture1.jpg");
+  margin-left: 50px;
+  margin-right: 50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 20px;
+}
